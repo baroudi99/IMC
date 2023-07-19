@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActRes3">
+
+    <TextView
+        android:id="@+id/result"
+        android:text="advice 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="100dp"
+        android:text="
+Make sure you have a balanced diet according to the benchmarks of the National Health Nutrition Program: 3 to 4 dairy products and a minimum of 5 fruits or vegetables per day, meat, fish, eggs or legumes at least once a day , bread or starches with each meal, rapeseed or walnut oil in the kitchen, at least 1.5 l of drinks daily."
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="290dp"
+
+        app:srcCompat="@drawable/a3" />
+
+
+</RelativeLayout>
